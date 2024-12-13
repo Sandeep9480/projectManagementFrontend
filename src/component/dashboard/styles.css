@@ -1,0 +1,110 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.project-content {
+    padding: 15px;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 8px;
+}
+
+.project-bio {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    padding-block: 1.5rem;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.tech-chip {
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 16px;
+    text-transform: capitalize;
+}
+
+.project-deadline {
+    font-size: 0.8rem;
+    color: #e74c3c;
+    text-align: right;
+}
+
+.dashboard-analysis {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-analysis h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
